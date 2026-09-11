@@ -1,7 +1,7 @@
 # Desafio-DIO-desafio-aws-step-functions.
 # 🛵 Criando meu Primeiro Workflow no AWS Step Functions.
 
-Olá! 👋 Seja bem-vindo(a) ao meu repositório. 
+## Olá! 👋 Seja bem-vindo(a) ao meu repositório. (um dos mais difíceis diga-se de passagem).
 
 ## 🛠️ Recursos & Ferramentas Utilizadas:
 
