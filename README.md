@@ -50,11 +50,12 @@ Durante as aulas e a prática, entendi que o **Step Functions** funciona com alg
 
 ---
 
-## 📐 Como o Fluxo Funciona (Passo a Passo).
+## 📐 Como o Fluxo Funciona (Passo a Passo)
 
-Fiz um esquema bem simples para ilustrar o caminho que o pedido faz dentro do meu workflow:
+Fiz um esquema visual para ilustrar o caminho que o pedido faz dentro do meu workflow:
+Imagem criada com a ferramenta ChatGPT.
 
-
+![Diagrama do Fluxo de Trabalho do Step Functions](fluxo.png)
 
 
 ---
