@@ -10,14 +10,14 @@ Para a elaboração deste projeto e documentação, utilizei as seguintes ferram
 - 🏫 **[DIO (Digital Innovation One - Formação AWS Cloud Foundations)](https://www.dio.me/):** Conteúdo das aulas e estruturação do desafio de projeto.
 - ☁️ **[AWS Console](https://aws.amazon.com/pt/):** Plataforma para exploração e criação das State Machines no Step Functions.
 - 🐙 **[GitHub](https://github.com/):** Hospedagem do código, versionamento e publicação da documentação.
-- 🤖 **[ChatGPT](https://chatgpt.com/):** Auxílio na organização das anotações, estruturação do README.md e síntese dos conceitos aprendidos.
+- 🤖 **[ChatGPT](https://chatgpt.com/):** Auxílio na organização das anotações e estruturação da documentação.
 
 ##Como estou no início da minha jornada em **Nuvem e AWS**, está documentado o que aprendi, os conceitos básicos que entendi e como montei meu primeiro fluxo de automação usando o **AWS Step Functions**.
 ## Aulas ministradas pelo Arquiteto de Soluções AWS - Alexandro Lechner.
 
 ---
 
-## 📌 O que você vai encontrar aqui?
+## 📌 O que vai encontrar aqui?
 - [O que é o AWS Step Functions? (Em palavras simples)](#-o-que-é-o-aws-step-functions-em-palavras-simples).
 - [O Desafio: Simulando um Assistente de Entrega](#-o-desafio-simulando-um-assistente-de-entrega).
 - [Conceitos Principais que Aprendi](#-conceitos-principais-que-aprendi).
@@ -33,7 +33,7 @@ Pense no **AWS Step Functions** como um "maestro" de uma orquestra.
 
 Em um sistema moderno, temos várias pequenas tarefas rodando separadas (como checar um pagamento, atualizar o estoque ou enviar um e-mail). O Step Functions é a ferramenta que organiza a ordem em que tudo isso deve acontecer: *"Primeiro faz isso, se der certo faz aquilo, se der errado avisa o usuário"*. (aplicação de estruturas condicionais).
 
-Tudo isso é feito de forma visual, o que facilita para quem está começando a entender arquitetura em nuvem!
+Tudo isso é feito de forma visual, o que facilita para quem está começando a entender arquitetura em nuvem!.
 
 ---
 
@@ -60,7 +60,7 @@ Durante as aulas e a prática, entendi que o **Step Functions** funciona com alg
 
 ---
 
-## 📐 Como o Fluxo Funciona (Passo a Passo)
+## 📐 Como o Fluxo Funciona (Passo a Passo).
 
 Fiz um esquema visual para ilustrar o caminho que o pedido faz dentro do meu workflow:
 Imagem criada com a ferramenta ChatGPT.
