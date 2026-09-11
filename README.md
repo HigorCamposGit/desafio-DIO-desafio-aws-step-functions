@@ -117,8 +117,12 @@ Abaixo está o código que usei para estruturar meu desafio:
   }
 }
 ```
-## 🔍 O que levei dessa experiência?
+## 🔍 O que eu aprendi na prática?
 
-* **Clareza visual:** Acompanhar o caminho do pedido em tempo real facilita demais para entender o fluxo e achar erros.
-* **Praticidade Serverless:** O Step Functions já resolve a parte chata de tratamento de erros e reexecuções sem eu precisar programar tudo do zero.
-* **Mão na massa:** Ver o processo rodando na prática na AWS fixou o conteúdo muito melhor do que só assistir às aulas.
+* **Entendimento visual:** Ver o caminho do pedido em tempo real facilitou muito para entender onde o processo acerta e onde ele trava.
+* **Menos código, mais eficiência:** O próprio Step Functions resolve o tratamento de erros e tentativas automaticamente, sem precisar programar tudo do zero.
+* **Mão na massa funciona:** Mexer direto no console da AWS fixou o conhecimento muito melhor do que só assistir às vídeo-aulas.
+
+---
+
+💡 *Projeto prático desenvolvido durante os meus estudos na plataforma DIO.*
