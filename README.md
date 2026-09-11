@@ -69,11 +69,14 @@ Imagem criada com a ferramenta ChatGPT.
 
 ---
 
-## 📝 Código do Workflow ( ARQUIVO JSON).
+## 📝 Estrutura do Workflow (ARQUIVO JSON / ASL)
+## Usar a tag <details> faz o código JSON ficar escondido dentro de um botão retrátil 
+(para ver o código tem de clicar no botão).
 
-Na AWS, nós podemos montar o fluxo arrastando blocos na tela ou usando um código estruturado em JSON (chamado de **ASL - Amazon States Language**). 
+Na AWS, podemos criar o fluxo arrastando blocos no **Workflow Studio** (interface visual). Por "trás dos panos", a AWS gera um código em JSON chamado **ASL (Amazon States Language)** para salvar a estrutura:
 
-Abaixo está o código que usei para estruturar meu desafio:
+<details>
+<summary>👉 Clique aqui para ver o código JSON gerado pela AWS</summary>
 
 ```json
 {
@@ -83,36 +86,26 @@ Abaixo está o código que usei para estruturar meu desafio:
     "ValidarPedido": {
       "Type": "Task",
       "Resource": "arn:aws:states:::lambda:invoke",
-      "Parameters": {
-        "FunctionName": "MinhaFuncaoValidarPedido"
-      },
+      "Parameters": { "FunctionName": "MinhaFuncaoValidarPedido" },
       "Next": "PedidoEValido"
     },
     "PedidoEValido": {
       "Type": "Choice",
       "Choices": [
-        {
-          "Variable": "$.status",
-          "StringEquals": "OK",
-          "Next": "ProcessarPagamento"
-        }
+        { "Variable": "$.status", "StringEquals": "OK", "Next": "ProcessarPagamento" }
       ],
       "Default": "PedidoInvalido"
     },
     "ProcessarPagamento": {
       "Type": "Task",
       "Resource": "arn:aws:states:::lambda:invoke",
-      "Parameters": {
-        "FunctionName": "MinhaFuncaoPagamento"
-      },
+      "Parameters": { "FunctionName": "MinhaFuncaoPagamento" },
       "Next": "AgendarEntrega"
     },
     "AgendarEntrega": {
       "Type": "Task",
       "Resource": "arn:aws:states:::lambda:invoke",
-      "Parameters": {
-        "FunctionName": "MinhaFuncaoEntrega"
-      },
+      "Parameters": { "FunctionName": "MinhaFuncaoEntrega" },
       "Next": "Sucesso"
     },
     "PedidoInvalido": {
