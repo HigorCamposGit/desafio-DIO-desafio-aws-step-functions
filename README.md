@@ -13,6 +13,7 @@ Para a elaboração deste projeto e documentação, utilizei as seguintes ferram
 - 🤖 **[ChatGPT](https://chatgpt.com/):** Auxílio na organização das anotações, estruturação do README.md e síntese dos conceitos aprendidos.
 
 ##Como estou no início da minha jornada em **Nuvem e AWS**, está documentado o que aprendi, os conceitos básicos que entendi e como montei meu primeiro fluxo de automação usando o **AWS Step Functions**.
+## Aulas ministradas pelo Arquiteto de Soluções AWS - Alexandro Lechner.
 
 ---
 
