@@ -70,11 +70,9 @@ Imagem criada com a ferramenta ChatGPT.
 
 ---
 
-## 📝 Estrutura do Workflow (ARQUIVO JSON / ASL)
-## Usar a tag <details> faz o código JSON ficar escondido dentro de um botão retrátil 
-(para ver o código tem de clicar no botão).
+## 📝 Estrutura do Workflow (JSON / ASL)
 
-Na AWS, podemos criar o fluxo arrastando blocos no **Workflow Studio** (interface visual). Por "trás dos panos", a AWS gera um código em JSON chamado **ASL (Amazon States Language)** para salvar a estrutura:
+Na AWS, podemos criar o fluxo arrastando blocos no **Workflow Studio** (interface visual). Por trás dos panos, a AWS gera um código em JSON chamado **ASL (Amazon States Language)** para salvar a estrutura:
 
 <details>
 <summary>👉 Clique aqui para ver o código JSON gerado pela AWS</summary>
@@ -120,6 +118,9 @@ Na AWS, podemos criar o fluxo arrastando blocos no **Workflow Studio** (interfac
   }
 }
 ```
+Por que essa solução é ótima?
+Usar a tag <details> faz o código JSON ficar escondido dentro de um botão retrátil (a pessoa só vê o código se clicar no botão).
+
 ## 🔍 O que levei dessa experiência?
 
 * **Clareza visual:** Acompanhar o caminho do pedido em tempo real facilita demais para entender o fluxo e achar erros.
