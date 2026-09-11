@@ -3,7 +3,16 @@
 
 Olá! 👋 Seja bem-vindo(a) ao meu repositório. 
 
-Este projeto foi desenvolvido durante o desafio prático da **DIO (Digital Innovation One)**. Do curso de **Formação AWS Cloud Foundations** Como estou no início da minha jornada em **Nuvem e AWS**, está documentado o que aprendi, os conceitos básicos que entendi e como montei meu primeiro fluxo de automação usando o **AWS Step Functions**.
+## 🛠️ Recursos & Ferramentas Utilizadas:
+
+Para a elaboração deste projeto e documentação, utilizei as seguintes ferramentas e materiais de apoio:
+
+- 🏫 **[DIO (Digital Innovation One - Formação AWS Cloud Foundations)](https://www.dio.me/):** Conteúdo das aulas e estruturação do desafio de projeto.
+- ☁️ **[AWS Console](https://aws.amazon.com/pt/):** Plataforma para exploração e criação das State Machines no Step Functions.
+- 🐙 **[GitHub](https://github.com/):** Hospedagem do código, versionamento e publicação da documentação.
+- 🤖 **[ChatGPT](https://chatgpt.com/):** Auxílio na organização das anotações, estruturação do README.md e síntese dos conceitos aprendidos.
+
+##Como estou no início da minha jornada em **Nuvem e AWS**, está documentado o que aprendi, os conceitos básicos que entendi e como montei meu primeiro fluxo de automação usando o **AWS Step Functions**.
 
 ---
 
@@ -117,11 +126,8 @@ Abaixo está o código que usei para estruturar meu desafio:
   }
 }
 ```
-🔍 Meus Principais Aprendizados
-Visibilidade: Foi muito legal ver visualmente por onde o processo passa e onde ele para se acontecer algum tipo de erro.
+## 🔍 O que levei dessa experiência?
 
-Não precisa reinventar a roda: Em vez de escrever centenas de linhas de código para tratar erros e tentativas, o próprio **Step Functions** já tem opções prontas para reexecutar tarefas que falharam.
-
-Prática é fundamental: Assistir às aulas é importante, mas colocar a mão no console da AWS e ver o fluxo rodando fez toda a diferença para o meu aprendizado.
-
-🎓 Projeto desenvolvido para o Curso: "Formação AWS Cloud Foundations" na plataforma DIO.
+* **Clareza visual:** Acompanhar o caminho do pedido em tempo real facilita demais para entender o fluxo e achar erros.
+* **Praticidade Serverless:** O Step Functions já resolve a parte chata de tratamento de erros e reexecuções sem eu precisar programar tudo do zero.
+* **Mão na massa:** Ver o processo rodando na prática na AWS fixou o conteúdo muito melhor do que só assistir às aulas.
