@@ -54,25 +54,7 @@ Durante as aulas e a prática, entendi que o **Step Functions** funciona com alg
 
 Fiz um esquema bem simples para ilustrar o caminho que o pedido faz dentro do meu workflow:
 
-[ Início: Pedido Recebido ]
-│
-▼
-[ Checar dados do Pedido ]
-│
-┌──────┴──────┐
-( Válido )     ( Inválido )
-│             │
-▼             ▼
-[ Pagamento ]  [ Cancelar ] ──► [ Fim: Falha ❌ ]
-│
-┌──┴──┐
-( Ok ) ( Erro )
-│      │
-▼      └───────────────────► [ Fim: Falha ❌ ]
-[ Agendar Entrega ]
-│
-▼
-[ Fim: Sucesso 🎉 ]
+
 
 
 ---
